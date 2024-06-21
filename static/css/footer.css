@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Natalhia Fonseca */
+footer div {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0970C3;
+    width: 100vw;
+    height: 10vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    bottom: 0%;
+}
+/*Natalhia Fonseca */
+footer div img {
+    width: 10%;
+    height: fit-content;
+}
+
+@media (max-width: 768px ) {
+/*Natalhia Fonseca */
+footer div img {
+    width: 25%;
+    height: fit-content;
+}
+}
+

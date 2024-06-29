@@ -1,0 +1,33 @@
+/*Lara*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px ;
+    position: relative;
+    padding: 10px;
+
+}
+.header-right {
+    display: flex;
+    right: auto;
+
+    }
+
+.header-right {
+     position: absolute;
+     top: 50%;
+     left: 90%;
+     transform: translate(-50% ,-50%);
+    }
+    
+.header-image {
+        max-height: 80px;
+        height: auto;
+
+    }
+
+    

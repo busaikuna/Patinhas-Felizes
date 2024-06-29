@@ -17,14 +17,14 @@ footer div {
 }
 /*Natalhia Fonseca */
 footer div img {
-    width: 10%;
+    width: 8vw;
     height: fit-content;
 }
 
 @media (max-width: 768px ) {
 /*Natalhia Fonseca */
 footer div img {
-    width: 25%;
+    width: 20vw;
     height: fit-content;
 }
 }

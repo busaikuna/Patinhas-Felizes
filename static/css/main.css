@@ -7,7 +7,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10vh;
     padding-bottom: 10vh;
 }
 .accountPic-publication{
@@ -29,25 +28,6 @@ main{
     font-weight: bold;
     display: flex;
     align-items: center;
-}
-
-.moreOption-div{
-    display: none;
-    width: 40vw;
-    height: 40vw;
-    padding: 25px;
-    top: 0;
-    margin-top: 10px;
-    text-align: center;
-    background-color: #555555;
-    position: absolute;
-    right: 0;
-    margin-right: 25px;
-}
-.moreOption-div p:hover{
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #9c9c9c;
 }
 
 /*Design para Desktop*/
@@ -110,7 +90,7 @@ main{
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    width: 15vw;
+    width: 10vw;
     background-color: #0a70c4;
 }
 
@@ -169,10 +149,11 @@ main{
     cursor: pointer;
     border: none;
     outline: none;
-    padding: 2vw;
+    padding: 3vw;
     border-radius: 5px;
     font-family: sans-serif;
     font-weight: bold;
+    font-size: 4vw;
     color: #fff;
     width: 25vw;
     background-color: #0a70c4;

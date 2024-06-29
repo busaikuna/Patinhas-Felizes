@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="../css/footer.css">
+   <link rel="stylesheet" href="../css/search.css">
 </head>
 <body>
-    <header></header>
+    <header>
+       <div class="input-container">
+        <img src="../icons/lupa.png" alt="">
+        <input type="text">
+       </div>
+      
+       <div class="checkbox-container">
+        <input type="checkbox" id="adoption-available">
+        <label for="adoption-available">Listar apenas animais disponíveis para adoção</label>
+    </div>
+    </header>
+    
     <main></main>
 
     <footer> <!--Natalhia Fonseca-->
         <div>
-            <img src="../icons/homeIcon.png" alt="">
-            <img src="../icons/searchIcon.png" alt="">
-            <img src="../icons/addIcon.png" alt="">
-            <img src="../icons/accountIcon.png" alt="">
+            <a href="../../index.html"><img src="../icons/homeIcon.png" id="home"></a>
+            <a href="search.html"><img src="../icons/searchIcon.png" id="search"></a>
+            <a href=""><img src="../icons/addIcon.png" id="add"></a>
+            <a href=""><img src="../icons/accountIcon.png" id="account"></a>
             </div> 
     </footer>
+    <script src="../javascript/styles.js"></script>
+    <script src="../javascript/script.js"></script>
 </body>
 </html>

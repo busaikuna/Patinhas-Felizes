@@ -10,30 +10,3 @@ like.forEach(function(button){
         }
     })
 })
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    const moreOptionsButtons = document.querySelectorAll('.moreOptions-publication');
-    let activeMoreOptionDiv = null;
-
-    moreOptionsButtons.forEach(button => {
-        button.addEventListener('click', function (event) {
-            event.stopPropagation();
-
-            const moreOptionDiv = this.nextElementSibling;
-
-            if (activeMoreOptionDiv && activeMoreOptionDiv !== moreOptionDiv) {
-                activeMoreOptionDiv.style.display = 'none';
-            }
-            moreOptionDiv.style.display = moreOptionDiv.style.display === 'block' ? 'none' : 'block';
-
-            activeMoreOptionDiv = moreOptionDiv.style.display === 'block' ? moreOptionDiv : null;
-        });
-    });
-    document.addEventListener('click', function () {
-        if (activeMoreOptionDiv) {
-            activeMoreOptionDiv.style.display = 'none';
-            activeMoreOptionDiv = null;
-        }
-    });
-});

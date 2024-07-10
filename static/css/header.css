@@ -4,12 +4,11 @@ body {
     padding: 0;
 }
 .header {
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px ;
     position: relative;
-    padding: 10px;
-
 }
     
 .header-left,
@@ -25,7 +24,7 @@ body {
      transform: translate(-50% ,-50%);
     }
 .header-image {
-        width: 15vw;
+        width: 5vw;
     }
     
 main{
@@ -34,8 +33,51 @@ main{
   flex-wrap: wrap;
   gap: 1rem;
 }
-header img {
-  display: block;
-  width: 20vw;
-  gap: 1rem;
+
+@media (max-width: 768px ) {
+    .header {
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px ;
+        position: relative;
+        padding: 10px;
+    
+    }
+        
+    .header-left,
+    .header-right {
+        display: flex;
+        right: auto;
+    
+        }
+    .header-right {
+         position: absolute;
+         top: 50%;
+         left: 90%;
+         transform: translate(-50% ,-50%);
+        }
+    .header-image {
+            width: 15vw;
+        }
+        
+    main{
+      width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    header img {
+      display: block;
+      width: 20vw;
+      gap: 1rem;
+    }
 }
+
+
+
+
+
+
+
+    

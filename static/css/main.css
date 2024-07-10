@@ -59,7 +59,7 @@ main{
     align-items: center;
 }
 
-.interaction img{
+.share{
     width: 3vw;
     cursor: pointer;
 }
@@ -124,8 +124,8 @@ main{
     align-items: center;
 }
 
-.interaction img{
-    width: 8vw;
+.share{
+    width: 9vw;
     cursor: pointer;
 }
 

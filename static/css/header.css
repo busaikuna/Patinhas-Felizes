@@ -11,23 +11,31 @@ body {
     padding: 10px;
 
 }
+    
+.header-left,
 .header-right {
     display: flex;
     right: auto;
 
     }
-
 .header-right {
      position: absolute;
      top: 50%;
      left: 90%;
      transform: translate(-50% ,-50%);
     }
-    
 .header-image {
-        max-height: 80px;
-        height: auto;
-
+        width: 15vw;
     }
-
     
+main{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+header img {
+  display: block;
+  width: 20vw;
+  gap: 1rem;
+}
